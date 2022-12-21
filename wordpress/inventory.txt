@@ -1,0 +1,2 @@
+target1 ansible_host=172.31.30.174 ansible_user=root ansible_ssh_pass=admin@123
+
