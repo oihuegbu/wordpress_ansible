@@ -1,0 +1,11 @@
+---
+- name: Install mysql
+  hosts: all
+  become: true
+
+  roles:
+    - role: ansible-role-mysql
+
+  vars: 
+    username: admin
+    password: admin
